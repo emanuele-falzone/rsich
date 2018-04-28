@@ -1,0 +1,15 @@
+<ul class="collection with-header z-depth-1">
+    <li class="collection-header cyan">
+        <h5 class="white-text light">Prizes</h5>
+    </li>
+    <!-- ko foreach: items -->
+    <li class="collection-item" data-bind="click: $parent.select">
+        <strong>description</strong>
+        <span data-bind="text: $data['description']" style="white-space: pre-wrap;"></span><br>
+        <strong>image</strong>
+        <span data-bind="text: $data['image']" style="white-space: pre-wrap;"></span><br>
+        <strong>title</strong>
+        <span data-bind="text: $data['title']" style="white-space: pre-wrap;"></span><br>
+    </li>
+    <!-- /ko -->
+</ul>

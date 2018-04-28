@@ -1,0 +1,23 @@
+<div class="card z-depth-1">
+    <div class="card-image">
+        <ul class="card-image collection with-header">
+            <li class="collection-header cyan">
+                <h5 class="white-text light">User Details</h5>
+            </li>
+        </ul>
+    </div>
+    <div class="card-content">
+        <div data-bind="if: item">
+            <strong>level</strong>
+            <span data-bind="text: item()['level']" style="white-space: pre-wrap;"></span><br>
+            <strong>name</strong>
+            <span data-bind="text: item()['name']" style="white-space: pre-wrap;"></span><br>
+            <strong>rank</strong>
+            <span data-bind="text: item()['rank']" style="white-space: pre-wrap;"></span><br>
+            <strong>surname</strong>
+            <span data-bind="text: item()['surname']" style="white-space: pre-wrap;"></span><br>
+            <strong>username</strong>
+            <span data-bind="text: item()['username']" style="white-space: pre-wrap;"></span><br>
+        </div>
+    </div>
+</div>

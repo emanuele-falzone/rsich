@@ -1,0 +1,13 @@
+<ul class="collection with-header z-depth-1">
+    <li class="collection-header cyan">
+        <h5 class="white-text light">Leaderboard</h5>
+    </li>
+    <!-- ko foreach: items -->
+    <li class="collection-item" data-bind="click: $parent.select">
+        <strong>points</strong>
+        <span data-bind="text: $data['points']" style="white-space: pre-wrap;"></span><br>
+        <strong>username</strong>
+        <span data-bind="text: $data['username']" style="white-space: pre-wrap;"></span><br>
+    </li>
+    <!-- /ko -->
+</ul>

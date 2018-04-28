@@ -1,0 +1,17 @@
+<div class="card z-depth-1">
+    <div class="card-image">
+        <ul class="card-image collection with-header">
+            <li class="collection-header cyan">
+                <h5 class="white-text light">Question</h5>
+            </li>
+        </ul>
+    </div>
+    <div class="card-content">
+        <div data-bind="if: item">
+            <strong>program</strong>
+            <span data-bind="text: item()['program']" style="white-space: pre-wrap;"></span><br>
+            <strong>text</strong>
+            <span data-bind="text: item()['text']" style="white-space: pre-wrap;"></span><br>
+        </div>
+    </div>
+</div>

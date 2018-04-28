@@ -1,0 +1,13 @@
+<ul class="tabs" style="overflow: hidden">
+        <li class="tab col s6"><a class="cyan-text" data-bind="click: landmark.bind($data, 'view-container-globale'), css: {active: active() === 'view-container-globale'}">General</a></li>
+        <li class="tab col s6"><a class="cyan-text" data-bind="click: landmark.bind($data, 'view-container-stagionale'), css: {active: active() === 'view-container-stagionale'}">Personal</a></li>
+        <div class="indicator cyan" style="z-index:1"></div>
+</ul>
+<!-- ko if: active() === 'view-container-globale' -->
+    <!-- General -->
+    <c-view-container-globale params="context: context"></c-view-container-globale>
+<!-- /ko -->
+<!-- ko if: active() === 'view-container-stagionale' -->
+    <!-- Personal -->
+    <c-view-container-stagionale params="context: context"></c-view-container-stagionale>
+<!-- /ko -->

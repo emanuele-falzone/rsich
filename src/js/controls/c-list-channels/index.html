@@ -1,0 +1,13 @@
+<ul class="collection with-header z-depth-1">
+    <li class="collection-header cyan">
+        <h5 class="white-text light">Channels</h5>
+    </li>
+    <!-- ko foreach: items -->
+    <li class="collection-item" data-bind="click: $parent.select">
+        <strong>image</strong>
+        <span data-bind="text: $data['image']" style="white-space: pre-wrap;"></span><br>
+        <strong>name</strong>
+        <span data-bind="text: $data['name']" style="white-space: pre-wrap;"></span><br>
+    </li>
+    <!-- /ko -->
+</ul>

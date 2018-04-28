@@ -1,0 +1,32 @@
+<ul class="side-nav" id="landmarks">
+    <li data-bind="click: landmark.bind($data,'view-container-home'), css: {active: active() === 'view-container-home'}"><a>Home</a></li>
+    <li data-bind="click: landmark.bind($data,'view-container-leaderboard'), css: {active: active() === 'view-container-leaderboard'}"><a>Leaderboard</a></li>
+    <li data-bind="click: landmark.bind($data,'view-container-prizes'), css: {active: active() === 'view-container-prizes'}"><a>Prizes</a></li>
+    <li data-bind="click: landmark.bind($data,'view-container-profile'), css: {active: active() === 'view-container-profile'}"><a>Profile</a></li>
+</ul>
+<div class="navbar-fixed">
+    <nav class="cyan darken-1">
+        <div class="nav-wrapper">
+            <a href="#" data-activates="landmarks" class="button-collapse"><i class="material-icons tiny">menu</i></a>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="row">
+        <span data-bind="if: active() === 'view-container-channel'">
+            <c-view-container-channel params="context: context" class="container"></c-view-container-channel>
+        </span>
+        <span data-bind="if: active() === 'view-container-home'">
+            <c-view-container-home params="context: context" class="container"></c-view-container-home>
+        </span>
+        <span data-bind="if: active() === 'view-container-leaderboard'">
+            <c-view-container-leaderboard params="context: context" class="container"></c-view-container-leaderboard>
+        </span>
+        <span data-bind="if: active() === 'view-container-prizes'">
+            <c-view-container-prizes params="context: context" class="container"></c-view-container-prizes>
+        </span>
+        <span data-bind="if: active() === 'view-container-profile'">
+            <c-view-container-profile params="context: context" class="container"></c-view-container-profile>
+        </span>
+    </div>
+</div>
