@@ -62,7 +62,7 @@ gulp.task('js', function () {
 
 gulp.task('css', function () {
     return merge(
-        gulp.src('./node_modules/materialize-css/dist/css/materialize.min.css').pipe(gulp.dest('./www/css')),
+        gulp.src('./src/css/materialize.min.css').pipe(gulp.dest('./www/css')),
         gulp.src('./node_modules/material-design-icons-iconfont/dist/material-design-icons.css')
                 .pipe(minifyCss({compatibility: 'ie8'}))
                 .pipe(rename({suffix: '.min'}))
