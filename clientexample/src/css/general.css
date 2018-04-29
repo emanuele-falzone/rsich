@@ -1,17 +1,16 @@
-/*@@@@@@@@@@BODY LAYOUT@@@@@@@@@@*/
+/*@@@@@@@@@@ BODY LAYOUT @@@@@@@@@@*/
 
-.body_layout{
+.body-layout{
   background-color: #333333;
   color: white;
 }
 
 
-/*@@@@@@@@@@FONT@@@@@@@@@@*/
+/*@@@@@@@@@@ FONT @@@@@@@@@@*/
 
-body{
+.body-font {
 
   font-family: "Quicksand", verdana,sans-serif !important;
-  color: #020037;
 }
 
 .h_font{
@@ -41,7 +40,7 @@ body{
 }
 
 
-/*@@@@@@@@@@NAVBAR CSS@@@@@@@@@@*/
+/*@@@@@@@@@@ NAVBAR CSS @@@@@@@@@@*/
 
 .navbar{
 
@@ -142,7 +141,7 @@ body{
     cursor: hand;
 }
 
-/*@@@@@@@@@@LOGO@@@@@@@@@@*/
+/*@@@@@@@@@@ LOGO @@@@@@@@@@*/
 
 .logo{
 
@@ -151,7 +150,7 @@ body{
 }
 
 
-/*@@@@@@@@@@TAB@@@@@@@@@@*/
+/*@@@@@@@@@@ TAB @@@@@@@@@@*/
 
 .nav-tabs{
 
@@ -179,7 +178,7 @@ body{
 }
 
 
-/*@@@@@@@@@@TITLES@@@@@@@@@@*/
+/*@@@@@@@@@@ TITLES @@@@@@@@@@*/
 
 .title{
 
@@ -188,6 +187,7 @@ body{
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 30px !important;
+  margin-bottom: 12% !important;
 }
 
 .subtitle{
@@ -197,10 +197,11 @@ body{
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 24px !important;
+  margin-bottom: 9% !important;
 }
 
 
-/*@@@@@@@@@@CAROUSEL@@@@@@@@@@*/
+/*@@@@@@@@@@ CAROUSEL @@@@@@@@@@*/
 
 .slider{
 
@@ -243,4 +244,62 @@ body{
 .info_table {
 
     padding: 10px;
+}
+
+
+/*@@@@@@@@@@ BUTTONS @@@@@@@@@@*/
+
+.button{
+
+  color: white;
+  border-style: none !important;
+  background-color: darkred;
+  text-decoration: none !important;
+  width:130px;
+  height: 40px;
+  padding: 10px !important;
+}
+
+.claim{
+
+  color: white;
+  border-style: none !important;
+  background-color: darkgreen;
+  text-decoration: none !important;
+}
+
+
+/*@@@@@@@@@@ TABLES @@@@@@@@@@*/
+
+.tables{
+
+  width: 80% !important;
+}
+
+.table-head{
+
+  background-color: black;
+}
+
+.head-cell{
+
+  text-align: center;
+}
+
+.td-claim{
+
+  width: 30% !important;
+}
+
+
+/*@@@@@@@@@@ REACTIONS @@@@@@@@@@*/
+
+.emoji{
+
+  max-width: 60px !important;
+}
+
+.points{
+
+  text-align: center !important;
 }

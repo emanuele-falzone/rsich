@@ -1,20 +1,24 @@
-<h3>Prizes</h3>
-<table class="table table-hover table-condensed">
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>description</th>
-            <th>image</th>
-            <th>title</th>
-        </tr>
-    </thead>
-    <tbody data-bind="foreach: items">
-        <tr data-bind="click: $parent.select">
-            <td data-bind="text: id"></td>
-            <td data-bind="text: $data['description']" style="white-space: pre-wrap;"></td>
-            <td data-bind="text: $data['image']" style="white-space: pre-wrap;"></td>
-            <td data-bind="text: $data['title']" style="white-space: pre-wrap;"></td>
-        </tr>
-    </li>
-    </tbody>
-</table>
+<center>
+  <table class="table table-hover table-condensed tables">
+      <thead>
+          <tr class="table-head">
+              <th class="head-cell">Rank</th>
+              <th class="head-cell">Prize</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr >
+              <td class="points">1</td>
+              <td><img src="../src/assets/images/general1.png"></td>
+          </tr>
+          <tr>
+              <td class="points">2</td>
+              <td><img src="../src/assets/images/general2.png"></td>
+          </tr>
+          <tr >
+              <td class="points">3</td>
+              <td><img src="../src/assets/images/general3.png"></td>
+          </tr>
+      </tbody>
+  </table>
+</center>
