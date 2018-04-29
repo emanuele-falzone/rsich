@@ -21,7 +21,7 @@ Action.prototype.run = function (parameters, solve) { // add "onCancel" paramete
         .then(solve);
     */
     // THIS CAN BE REMOVED (BEGIN)
-    $.notify({message: 'Get Related Question'}, {allow_dismiss: true, type: 'success'});
+    //$.notify({message: 'Get Related Question'}, {allow_dismiss: true, type: 'success'});
     solve({
         event: 'get-related-question-done', // Done
         data: {
