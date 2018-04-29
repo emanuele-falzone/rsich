@@ -2,19 +2,19 @@
   <h5 class="title">Reactions</h5>
 </center>
 <center>
-  <table class="table table-hover table-condensed tables">
+  <table class="table table-condensed tables">
       <tbody>
           <tr>
-            <td class="points"><img class="emoji" src="../src/assets/images/love.png"></td>
-            <td class="points"><img class="emoji" src="../src/assets/images/lol.png"></td>
-            <td class="points"><img class="emoji" src="../src/assets/images/angry.png"></td>
-            <td class="points"><img class="emoji" src="../src/assets/images/sad.png"></td>
+            <td class="points td-reaction"><img class="emoji" src="../src/assets/images/love.png" onclick="document.getElementById('loveCount').innerText= 201;"></td>
+            <td class="points td-reaction"><img class="emoji" src="../src/assets/images/lol.png"></td>
+            <td class="points td-reaction"><img class="emoji" src="../src/assets/images/angry.png"></td>
+            <td class="points td-reaction"><img class="emoji" src="../src/assets/images/sad.png"></td>
           </tr>
           <tr>
-            <td class="points"><span class="points-love">200</span></td>
-            <td class="points"><span class="points-lol">100</span></td>
-            <td class="points"><span class="points-angry">50</span></td>
-            <td class="points"><span class="points-sad">5</span></td>
+            <td class="points td-reaction"><span id="loveCount" class="points-love">200</span></td>
+            <td class="points td-reaction"><span class="points-lol">100</span></td>
+            <td class="points td-reaction"><span class="points-angry">50</span></td>
+            <td class="points td-reaction"><span class="points-sad">5</span></td>
           </tr>
       </li>
       </tbody>

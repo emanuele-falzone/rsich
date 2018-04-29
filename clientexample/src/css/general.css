@@ -39,6 +39,11 @@
 
 }
 
+.quiz-font-question{
+
+  font-size: 20px;
+}
+
 
 /*@@@@@@@@@@ NAVBAR CSS @@@@@@@@@@*/
 
@@ -274,6 +279,7 @@
 .tables{
 
   width: 80% !important;
+  text-align: center;
 }
 
 .table-head{
@@ -291,6 +297,22 @@
   width: 30% !important;
 }
 
+.td-img{
+
+  max-width: 100% !important;
+}
+
+.tables-prize{
+
+  max-width: 100% !important;
+}
+
+.tables-quiz{
+
+  background-color: white;
+  color: black;
+}
+
 
 /*@@@@@@@@@@ REACTIONS @@@@@@@@@@*/
 
@@ -302,4 +324,31 @@
 .points{
 
   text-align: center !important;
+}
+
+.td-reaction{
+
+  border: none !important;
+}
+
+
+
+.playing-details{
+
+  max-width: 90% !important;
+}
+
+/*@@@@@@@@@@ QUESTIONS @@@@@@@@@@*/
+
+.img-question{
+
+  max-width: 100% !important;
+}
+
+.answer{
+
+  border: none !important;
+  width: 50%;
+  height: 40px;
+  vertical-align: middle;
 }
