@@ -1,0 +1,55 @@
+<center>
+  <div class= "content_layout">
+    <div class="logo_container logo_pad">
+      <img class="logo img-responsive" src="../src/assets/images/logo_general.png"/>
+    </div>
+  </div>
+</center>
+
+<nav class="navbar navbar-inverse">
+  <div class="navbar-header">
+    <div class="button-collapse-container">
+      <button id="but" type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a class= "normal-li-nav collapse li-nav" data-toggle="collapse" href="#myNavbar" data-bind="click: landmark.bind($data,'view-container-home'), css: {active: active() === 'view-container-home'}">Home</a>
+        </li>
+        <li>
+          <a class= "normal-li-nav collapse li-nav" data-toggle="collapse" href="#myNavbar" data-bind="click: landmark.bind($data,'view-container-profile'), css: {active: active() === 'view-container-profile'}">Profile</a>
+        </li>
+        <li>
+          <a class="normal-li-nav collapse li-nav" data-toggle="collapse" href="#myNavbar" data-bind="click: landmark.bind($data,'view-container-leaderboard'), css: {active: active() === 'view-container-leaderboard'}">Leaderboard</a>
+        </li>
+        <li>
+          <a class="normal-li-nav collapse li-nav" data-toggle="collapse" href="#myNavbar" data-bind="click: landmark.bind($data,'view-container-prizes'), css: {active: active() === 'view-container-prizes'}">Prizes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <span data-bind="if: active() === 'view-container-channel'">
+            <c-view-container-channel params="context: context" class="container"></c-view-container-channel>
+        </span>
+        <span data-bind="if: active() === 'view-container-home'">
+            <c-view-container-home params="context: context" class="container"></c-view-container-home>
+        </span>
+        <span data-bind="if: active() === 'view-container-leaderboard'">
+            <c-view-container-leaderboard params="context: context" class="container"></c-view-container-leaderboard>
+        </span>
+        <span data-bind="if: active() === 'view-container-prizes'">
+            <c-view-container-prizes params="context: context" class="container"></c-view-container-prizes>
+        </span>
+        <span data-bind="if: active() === 'view-container-profile'">
+            <c-view-container-profile params="context: context" class="container"></c-view-container-profile>
+        </span>
+    </div>
+</div>

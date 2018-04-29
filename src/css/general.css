@@ -1,0 +1,82 @@
+/*@@@@@@@@@@NAVBAR CSS@@@@@@@@@@*/
+
+.navbar{
+
+    border-radius: 0px !important;
+    text-align: center;
+    min-height: 40px !important;
+    /*align-items: center;
+    justify-content: center;
+    display: flex;*/
+    border: none !important;
+}
+
+.navbar-header{
+
+    float: none !important;
+    font-size: 100%;
+}
+
+.navbar-toggle{
+
+    margin-right: 0px !important;
+}
+
+.button-collapse-container{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.log-li-nav{
+
+    padding-right: 30px !important;
+
+    text-align: right;
+}
+
+.sign-li-nav{
+
+    padding-right: 30px !important;
+
+    text-align: right;
+}
+
+.ordina-text{
+
+    color: white !important;
+    background-color: #d9534f;
+    padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 860px){
+
+    .navbar-header{
+
+        float: none !important;
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 767px){
+
+    .exclusive-li-nav{
+
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+    }
+
+    .ordina-text{
+
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+
+.exclusive-li-nav{
+
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}

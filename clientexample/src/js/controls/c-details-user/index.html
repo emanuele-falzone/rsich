@@ -1,0 +1,30 @@
+<center>
+  <h5 class="title">Profile</h5>
+</center>
+
+<center>
+  <div class="info_container">
+    <table class="info_table" data-bind="if: item">
+      <tr class="info_row_table">
+        <td class="info_label">Name: </td>
+        <td class="info_value" data-bind="text: item()['name']"></td>
+      </tr>
+      <tr class="info_row_table">
+        <td class="info_label">Surname: </td>
+        <td class="info_value" data-bind="text: item()['surname']"></td>
+      </tr>
+      <tr class="info_row_table">
+        <td class="info_label">Username: </td>
+        <td class="info_value" data-bind="text: item()['username']"></td>
+      </tr>
+      <tr class="info_row_table">
+        <td class="info_label">Points: </td>
+        <td class="info_value" data-bind="text: item()['level']"></td>
+      </tr>
+      <tr class="info_row_table">
+        <td class="info_label">Rank: </td>
+        <td class="info_value" data-bind="text: item()['rank']"></td>
+      </tr>
+    </table>
+  </div>
+</center>

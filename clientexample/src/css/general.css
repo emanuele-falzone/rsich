@@ -1,0 +1,241 @@
+/*@@@@@@@@@@BODY LAYOUT@@@@@@@@@@*/
+
+.body_layout{
+  background-color: #333333;
+  color: white;
+}
+
+
+/*@@@@@@@@@@FONT@@@@@@@@@@*/
+
+body{
+
+  font-family: "Quicksand", verdana,sans-serif !important;
+  color: #020037;
+}
+
+.h_font{
+
+  font-family: "Quicksand" !important;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  background-color: #020037;
+  color: white !important;
+  padding-bottom: 20px;
+
+}
+
+.head{
+
+  font-size: 50px;
+  max-width: 550px;
+  background: -webkit-radial-gradient(circle, #020037, transparent);
+  background-size: 100% 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+  color: #020037 !important;
+  padding-bottom: 10px;
+  font-family: BlinkMacSystemFont;
+
+}
+
+
+/*@@@@@@@@@@NAVBAR CSS@@@@@@@@@@*/
+
+.navbar{
+
+    border-radius: 0px !important;
+    text-align: center;
+    min-height: 40px !important;
+    /*align-items: center;
+    justify-content: center;
+    display: flex;*/
+    border: none !important;
+}
+
+.navbar-header{
+
+    float: none !important;
+    font-size: 100%;
+}
+
+.navbar-toggle{
+
+    margin-right: 0px !important;
+}
+
+.button-collapse-container{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.log-li-nav{
+
+    padding-right: 30px !important;
+
+    text-align: right;
+}
+
+.sign-li-nav{
+
+    padding-right: 30px !important;
+
+    text-align: right;
+}
+
+.ordina-text{
+
+    color: white !important;
+    background-color: #d9534f;
+    padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 860px){
+
+    .navbar-header{
+
+        float: none !important;
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 767px){
+
+    .exclusive-li-nav{
+
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+    }
+
+    .ordina-text{
+
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+
+.exclusive-li-nav{
+
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+.menu-button{
+
+    background-color: #020037;
+    border: 2px solid white !important;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.normal-li-nav {
+
+    padding-bottom: 0px !important;
+    border: none !important;
+    margin-top: none !important;
+    margin-bottom: none !important;
+    cursor: pointer;
+    cursor: hand;
+}
+
+/*@@@@@@@@@@LOGO@@@@@@@@@@*/
+
+.logo{
+
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+
+
+/*@@@@@@@@@@TAB@@@@@@@@@@*/
+
+.nav-tabs{
+
+  margin-left: 2%;
+}
+
+.tab{
+
+  color: white;
+  border-style: none !important;
+  background-color: darkred;
+  text-decoration: none !important;
+}
+
+.active{
+
+  color: #333333 !important;
+  background: white !important;
+}
+
+.btn{
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/*@@@@@@@@@@TITLES@@@@@@@@@@*/
+
+.title{
+
+  background: darkred !important;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 30px !important;
+}
+
+.subtitle{
+
+  background: white !important;
+  color: darkred;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 24px !important;
+}
+
+
+/*@@@@@@@@@@CAROUSEL@@@@@@@@@@*/
+
+.slider{
+
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+
+/*@@@@@@@@@@ PROFILE TABLE @@@@@@@@@@*/
+
+.info_container{
+  /*
+  max-width: 400px;
+  border: 5px solid #020037;*/
+  /*border-radius: 10px;*/
+  margin: 40px;
+  padding-top: 0px !important;
+  padding-bottom: 40px;
+}
+
+.info_label {
+
+    text-align: right;
+    padding: 10px !important;
+    width: 50%;
+}
+
+.info_value {
+
+    text-align: justify;
+    padding: 10px !important;
+    width: 50%;
+}
+
+.info_table {
+
+    padding: 10px;
+}
