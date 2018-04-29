@@ -5,7 +5,7 @@ exports.createEvent = function () { // add "options" parameter if needed
     return function (context, data) {
         data = data || {};
         var packet = {
-            'name' : data['name']
+            'name' : 'la1'
         };
         var promise = context.actions['get-related-question']({filters: packet});
         context.runningActionsByContainer['view-container-home'].push(promise);
